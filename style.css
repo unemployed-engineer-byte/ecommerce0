@@ -1,0 +1,51 @@
+body{margin: 0%; padding: 0%; font-family: 'Parisienne', cursive; background-image: url(background.png); 
+        background-size: cover; 
+}
+#home img{height: 300px; width: 300px; margin: -100px 10px;}
+#home{display: flex; position: relative; }
+#links ul li{position: relative; display: inline-block; padding: 10px 12px; justify-content: space-between;}
+#links ul li a{text-decoration: none; color: black; font-size: 25px; transition: 0.5s;}
+#links{margin-left: 47%; margin-top: 10px;}
+#main button{background-color:pink; opacity: 70%; border: 6px solid white; border-radius: 12px; padding: 10px 12px; }
+#main button a{color: black; text-decoration: none; font: bold;
+         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+#main{margin-left: 15%; margin-top: 10%;}
+#main p{font-family: Georgia, 'Times New Roman', Times, serif; color: blueviolet;}
+#main h1{color: rgb(32, 30, 30); text-shadow: 12px 2px 13px black;}
+#arrow img{height: 50px; width: 50px; margin: 5px 5px;}
+#arrow{ margin-left: 15%;}
+#links ul li a:hover{text-shadow: 2px 2px 2px pink;}
+#arrow button{background-color: transparent; border: none;} 
+#tag{ position: absolute; }
+#tag img{height: 50%; width: 50%; position: relative; left: 90%; margin-top: -21%;}
+#second{ 
+        min-height: 100vh;
+        width: 100%;
+        padding: 0%;
+        margin-top: 19%;
+        margin-bottom: 0%;
+        margin-left: 0%;
+        margin-right: 0%;
+        background-color: pink;
+        background-repeat: no-repeat;
+        background-size: 100%;
+}
+#second h1{ font-size: 50px; color: white;
+        position: relative;
+        text-align: center;
+        text-shadow: 6px 4px 5px black;
+        padding-top: 40px;
+}
+#second p{ font-size:  30px;
+        text-align: center;
+        margin-top: -2%;
+        text-shadow: 2px 2px 2px black;
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+        
+
+}
+#images{display: flex; margin-left: 8.5% ; margin-top: 5%;}
+#images img{position: relative; display: inline-block; height: 500px; margin: 10px 30px; border: 2px solid white;
+ box-shadow: 20px 22px 20px black;
+} 
